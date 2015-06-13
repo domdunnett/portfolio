@@ -6,8 +6,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="Dom, Dunnett, Web, Developer, Hong Kong, Full Stack, HTML, CSS, Javascript, Ruby, Rails, Programmer">
-  <meta name="description" content="Dom Dunnett is a Full Stack Web Developer based in Hong Kong.">
+  <meta name="keywords" content="Dom, Dunnett, Web, Developer, Hong Kong, Full Stack, HTML, CSS, Javascript, Ruby, Rails, Meteor, Node, Ionic, Programmer">
+  <meta name="description" content="Dom Dunnett is a Full Stack Web Developer based in Hong Kong. He has experience developing in both Ruby and Javascript programming languages with a focus on Ruby on Rails, AngularJS and Meteor.js">
   <meta name="author" content="Dom Dunnett">
 
   <title>Dom Dunnett</title>
@@ -23,6 +23,21 @@
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
+
+<!------------------------------------------- Google Analytics Javascript ------------------------------------------>
+  
+  <script>
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-63601918-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  
 </head>
 
 <body>
@@ -59,35 +74,43 @@
     <div class="header">
     </div>
 
-    <header class="text-vertical-center col-xs-12" id="header-text" data-0="opacity: 1" data-175-start="opacity: 0">
+    <header class="text-vertical-center col-xs-12" 
+            id="header-text" 
+            data-0="opacity: 1; transform: translateY(0%)" 
+            data-60p-start="opacity: 0; transform: translateY(40%)">
       <h1>Dom Dunnett</h1>
       <h3>Full Stack Web Developer</h3>
       <br>
-      <a href="#services" class="btn btn-dark btn-lg" id="opening-button">More</a>
+      <a href="#services" class="btn btn-dark btn-lg" id="opening-button">Experience</a>
     </header>
 
-<!--------------------------------- Clear Section Between Experience and Main Titel --------------------------------->
+<!--------------------------------- Clear Section Between Experience and Main Title --------------------------------->
     
     <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 text-center">
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
           </div>
         </div>
+      </div>
     </section>
 
 <!---------------------------------------------------- Experience --------------------------------------------------->
     
-    <section id="services" class="services bg-primary">
+    <section  id="services" 
+              class="services bg-primary"
+              data--50p-top="opacity: 1"
+              data--80p-top="opacity: 0">
       <div class="container">
         <div class="row text-center">
-          <div class="col-lg-10 col-lg-offset-1">
+          <div  class="col-lg-10 col-lg-offset-1">
            
             <h2>Tech Stack Experience</h2>
             <hr class="small">
                  
-              <div class="service-item col-xs-6 col-sm-3">
+              <div  class="service-item col-xs-6 col-sm-3" 
+                    data--45-bottom="opacity: 0; transform: scale(0.5)" 
+                    data--90-bottom="opacity: 1;  transform: scale(1)">
                <img  src="http://i.stack.imgur.com/Mmww2.png" 
                      height="100px"
                      width="100px">
@@ -96,7 +119,9 @@
                 </h4>
               </div>
 
-              <div class="service-item col-xs-6 col-sm-3">
+              <div  class="service-item col-xs-6 col-sm-3"
+                    data--45-bottom="opacity: 0; transform: scale(0.5)" 
+                    data--90-bottom="opacity: 1;  transform: scale(1)">
                 <img  src="http://joshnuss.github.io/mruby-web-irb/images/favicon.png" 
                       height="100px" 
                       width="100px">
@@ -105,7 +130,9 @@
                 </h4>
               </div>
 
-              <div class="service-item col-xs-6 col-sm-3">
+              <div  class="service-item col-xs-6 col-sm-3"
+                    data--45-bottom="opacity: 0; transform: scale(0.5)" 
+                    data--90-bottom="opacity: 1;  transform: scale(1)">
                <img  src="https://nodejs.org/images/mac_osx_nodejs_installer_logo.png" 
                      height="100px" 
                      width="100px">
@@ -114,7 +141,9 @@
                 </h4>
               </div>
 
-              <div class="service-item col-xs-6 col-sm-3">
+              <div  class="service-item col-xs-6 col-sm-3"
+                    data--45-bottom="opacity: 0; transform: scale(0.5)" 
+                    data--90-bottom="opacity: 1;  transform: scale(1)">
                 <img  src="http://ionicframework.com/img/ionic-logo-blog.png" 
                 height="100px"
                 width="100px"
@@ -124,7 +153,9 @@
                 </h4>
               </div>
 
-              <div class="service-item col-xs-6 col-sm-3">
+              <div  class="service-item col-xs-6 col-sm-3"
+                    data--90-bottom="opacity: 0; transform: scale(0.5)" 
+                    data--135-bottom="opacity: 1;  transform: scale(1)">
                <img   class="img-rounded"
                       src="https://secure.gravatar.com/avatar/6e1b5ab3ef1593413f1bee4e5a6e6ae7?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" 
                       height="100px"
@@ -134,7 +165,9 @@
                 </h4>
               </div>
 
-              <div class="service-item col-xs-6 col-sm-3">
+              <div  class="service-item col-xs-6 col-sm-3"
+                    data--90-bottom="opacity: 0; transform: scale(0.5)" 
+                    data--135-bottom="opacity: 1;  transform: scale(1)">
                 <img  src="http://www.iconattitude.com/icons/open_icon_library/apps/png/256/development-ruby_on_rails.png" 
                       height="100px" 
                       width="100px">
@@ -143,7 +176,9 @@
                 </h4>
               </div>
 
-              <div class="service-item col-xs-6 col-sm-3">
+              <div  class="service-item col-xs-6 col-sm-3"
+                    data--90-bottom="opacity: 0; transform: scale(0.5)" 
+                    data--135-bottom="opacity: 1;  transform: scale(1)">
                <img  src="http://www.ossys.com/wp-content/uploads/2014/01/mongodb_slide.png" 
                      height="100px" 
                      width="100px">
@@ -152,19 +187,28 @@
                 </h4>
               </div>
 
-              <div class="service-item col-xs-6 col-sm-3">
-                <img  src="https://raw.githubusercontent.com/spumko/hapi/master/images/hapi.png" 
+              <div  class="service-item col-xs-6 col-sm-3"
+                    data--90-bottom="opacity: 0; transform: scale(0.5)" 
+                    data--135-bottom="opacity: 1;  transform: scale(1)">
+                <img  src="https://d14jjfgstdxsoz.cloudfront.net/og-image-logo.png" 
                       height="100px"
                       width="100px"
                       class="img-rounded">
                 <h4>
-                  <strong>Hapi.js</strong>
+                  <strong>Meteor.js</strong>
                 </h4>
               </div>
               
               <!-- /.row (nested) -->
+            <div class="row">
+
+              <a href="#about" class="btn btn-dark btn-lg" id="opening-button">About</a>
+
+            </div>
           </div>
-            <!-- /.col-lg-10 -->
+           
+          <!-- /.col-lg-10 -->
+          
         </div>
           <!-- /.row -->
       </div>
@@ -173,16 +217,26 @@
 
 <!------------------------------------------------------ About ------------------------------------------------------>
    
-    <aside class="callout" id="about">
+    <aside  class="callout" 
+            id="about" 
+            data-top="opacity: 0; transform: translateY(0%)" 
+            data-50-top="opacity: 1; transform: translateY(-15%)">
         <div class="text-vertical-center">
-          <h2 id="subtitle">Full Stack Web Developer currently based in the heart of Hong Kong.</h2>
+          <h2 id="subtitle">Full Stack Web Developer based in the heart of Hong Kong.</h2>
           <p class="lead">Currently seeking challenging opportunities as a developer in Asia.</p>
+          
+          <div class="row">
+
+            <a href="#portfolio" class="btn btn-dark btn-lg" id="opening-button">Portfolio</a>
+
+          </div>
         </div>
     </aside>
 
 <!---------------------------------------------------- Portfolio ---------------------------------------------------->
    
-    <section id="portfolio" class="portfolio">
+    <section  id="portfolio" 
+              class="portfolio">
       <div class="container">
 
         <div class="row">
@@ -192,13 +246,34 @@
             <hr class="small">
 
             <div class="row">
+                
+                <div class="col-md-6">
+                  <div class="portfolio-item">
+                    <a href="https://smartowl.meteor.com">
+                      <img class="img-portfolio img-responsive" src="img/smartowl.png">
+                    </a>
+                    <p><a href="https://smartowl.meteor.com">Smart Owl Learning</a> Child's education app and real-time progress tracker</p>
+                    <p><strong>Tech Stack: </strong>Meteor.js, MongoDB, Bootstrap</p>
+                  </div>
+                </div>
 
+                <div class="col-md-6">
+                  <div class="portfolio-item">
+                    <a href="https://coconut-wdi7.herokuapp.com">
+                      <img class="img-portfolio img-responsive" src="img/coconut.png">
+                    </a>
+                    <p><a href="https://coconut-wdi7.herokuapp.com">Coconut</a> image sharing app based on EXIF location and time</p>
+                    <p><strong>Tech Stack: </strong>AngularJS, Ruby on Rails, PostgreSQL, Bootstrap</p>
+                  </div>
+                </div>
+                
                 <div class="col-md-6">
                   <div class="portfolio-item">
                     <a href="https://bookend.bitballoon.com">
                       <img class="img-portfolio img-responsive" src="img/bookend.png">
                     </a>
                     <p><a href="https://bookend.bitballoon.com">Bookend</a> social book review web application</p>
+                    <p><strong>Tech Stack: </strong>Node.js, Hapi.js, MongoDB, Bootstrap</p>
                   </div>
                 </div>
 
@@ -208,17 +283,14 @@
                       <img class="img-portfolio img-responsive" src="img/racingmathematics.png">
                     </a>
                     <p><a href="https://racing-mathematics.bitballoon.com">Racing Mathematics</a> child's educational racing game built in jQuery</p>
+                    <p><strong>Tech Stack: </strong>jQuery, Bootstrap</p>
                   </div>
                 </div>
+                
+            </div>
+            <div class="row">
 
-                <div class="col-md-6 col-md-offset-3">
-                  <div class="portfolio-item">
-                    <a href="https://coconut-wdi7.herokuapp.com">
-                      <img class="img-portfolio img-responsive" src="img/coconut.png">
-                    </a>
-                    <p><a href="https://coconut-wdi7.herokuapp.com">Coconut</a> image sharing app based on EXIF location and time</p>
-                  </div>
-                </div>
+              <a href="#contact" class="btn btn-dark btn-lg" id="opening-button">Contact</a>
 
             </div>
               <!-- /.row (nested) -->
@@ -247,7 +319,7 @@
 
 <!----------------------------------------------------- Footer ------------------------------------------------------>
     <footer data-end="opacity: 1;"
-            data-100-end="opacity: 0.5;">
+            data-25-end="opacity: 0.5;">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -255,7 +327,6 @@
             <h4 id="contact"><strong>Dom Dunnett</strong></h4>
             <p>General Assembly, 9/F, 33 Des Voeux Road<br>Central, Hong Kong</p>
             <ul class="list-unstyled">
-              <li><i class="fa fa-phone fa-fw"></i>HK: 852 6503-4611</li>
               <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:domdunnett@gmail.com">domdunnett@gmail.com</a>
               </li>
             </ul>
